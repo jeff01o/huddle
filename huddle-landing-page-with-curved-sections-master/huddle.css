@@ -1,0 +1,374 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn1 {
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 10px;
+  background-color: transparent;
+  color: hsl(322, 100%, 66%);
+  padding: 9px;
+  width: 19%;
+}
+.btn1:hover {
+  cursor: pointer;
+}
+
+.build {
+  text-align: center;
+}
+.text1 {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 35%;
+  margin-bottom: 28px;
+}
+
+.get {
+  display: flex;
+}
+
+.btn2 {
+  border-radius: 10px;
+  width: 15%;
+  padding: 8px;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+  box-shadow: 2px 2px 2px gray;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
+
+.mock {
+  display: flex;
+}
+
+.mock img {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  margin-top: 40px;
+}
+
+.sect {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.sect h1{
+  font-size: 50px;
+}
+
+.section1 {
+  background-color: hsl(207, 100%, 98%);
+  width: 1440px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sectiontop {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 1440px;
+}
+
+.pot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow {
+  display: flex;
+  margin: auto;
+  padding: auto;
+}
+
+.grow img {
+  width: 720px;
+}
+
+.grow1 {
+  margin: auto;
+  padding: auto;
+}
+
+.sectionbottom {
+  width: 1440px;
+}
+
+.grow1 h1,
+p {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.flow1 {
+  width: 50%;
+}
+
+.flow {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  margin-top: 20px;
+}
+
+.flow2 {
+  text-align: start;
+  margin-left: 20px;
+  margin: auto;
+  padding: auto;
+}
+
+.flow2 h1,
+p {
+  text-align: start;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.user1,
+.user3,
+.user2 {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+.user6 {
+  width: 50%;
+}
+
+.user4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user2 {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.user5 {
+  margin: auto;
+  padding: auto;
+}
+
+.user5 h1,
+.flow2 h1 {
+  margin-left: 15px;
+  wi
+}
+
+.user5 p{
+  width: 70%;
+}
+
+.build {
+  text-align: center;
+}
+
+.btn3 {
+  margin-bottom: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer2 {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.footer1 {
+  width: 100%px;
+}
+
+.lorem {
+  color: white;
+  width: 25%;
+}
+i {
+  color: white;
+  margin-left: 16px;
+}
+
+.tel {
+  display: inline;
+  color: white;
+}
+
+.hud img {
+  margin-left: 16px;
+}
+
+.icon-social {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.news p {
+  width: 25%;
+  color: white;
+}
+
+.hud {
+  margin-left: 100px;
+}
+
+.news h2 {
+  margin-left: 16px;
+  color: white;
+}
+
+input {
+  margin-left: 16px;
+  border-radius: 10px;
+}
+
+.btn4 {
+  background: hsl(322, 100%, 66%);
+  margin-left: 20px;
+  color: white;
+  border-radius: 10px;
+  width: 169px;
+  border-color: hsl(322, 100%, 66%);
+}
+
+@media(max-width: 936px){
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn1 {
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 10px;
+  background-color: transparent;
+  color: hsl(322, 100%, 66%);
+  padding: 8px;
+  width: 35%;
+  margin-left: 50px;
+}
+
+.text1 {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 70%;
+  margin-bottom: 28px;
+}
+
+
+.btn2 {
+  border-radius: 10px;
+  width: 45%;
+  padding: 8px;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+  box-shadow: 2px 2px 2px gray;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: auto;
+  margin-top: 40px;
+
+}
+
+.sect div{
+  margin: auto;
+  padding: auto;
+}
+
+
+.user4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user5{
+  margin: auto;
+  padding: auto;
+}
+
+.user6 {
+  width: 70%;
+  margin: auto;
+  padding: auto;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  margin-top: 20px;
+}
+
+.flow1{
+ width: 70%;
+}
+
+.flow1,.flow2{
+  margin: auto;
+  padding: auto;
+}
+
+.footer2 {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.news, .hud{
+  width: 90%;
+}
+
+.news p, .lorem{
+  width: 80%;
+}
+
+.hud {
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+footer{
+  margin-top: 30px;
+}
+}
